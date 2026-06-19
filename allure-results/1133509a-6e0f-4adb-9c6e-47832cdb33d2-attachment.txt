@@ -1,0 +1,8 @@
+Test Data: https://eventhub.rahulshettyacademy.com/login
+Initial navigation...https://eventhub.rahulshettyacademy.com/login
+Initial navigation failed, retrying with networkidle...
+Found 3 links on the page
+Found 0 nav elements
+Fill error for selector "#phone": locator.fill: value: expected string, got undefined
+Available input elements: 3
+Retry fill failed for: #phone

@@ -1,0 +1,55 @@
+Navigation failed: page.goto: net::ERR_ABORTED at https://eventhub.rahulshettyacademy.com/admin/events
+Call log:
+  - navigating to "https://eventhub.rahulshettyacademy.com/admin/events", waiting until "networkidle"
+
+Error in Admin End to End Test: page.goto: net::ERR_ABORTED at https://eventhub.rahulshettyacademy.com/admin/events
+Call log:
+  - navigating to "https://eventhub.rahulshettyacademy.com/admin/events", waiting until "networkidle"
+
+    at Createneweventpage.navigateaddnewevent (C:\Users\bhavnesh.kumar\OneDrive - GSPANN Technologies\Documents\trynewautomation\pages\Createneweventpage.ts:24:25)
+    at C:\Users\bhavnesh.kumar\OneDrive - GSPANN Technologies\Documents\trynewautomation\tests\e2e.spec.ts:103:34 {
+  name: 'Error',
+  [Symbol(step)]: {
+    location: {
+      file: 'C:\\Users\\bhavnesh.kumar\\OneDrive - GSPANN Technologies\\Documents\\trynewautomation\\pages\\Createneweventpage.ts',
+      line: 24,
+      column: 25,
+      function: 'Createneweventpage.navigateaddnewevent'
+    },
+    category: 'pw:api',
+    title: 'Navigate to "/admin/events"',
+    apiName: 'page.goto',
+    params: {
+      url: 'https://eventhub.rahulshettyacademy.com/admin/events',
+      waitUntil: 'networkidle',
+      timeout: 60000
+    },
+    group: undefined,
+    stepId: 'pw:api@43',
+    boxedStack: undefined,
+    steps: [],
+    attachmentIndices: [],
+    info: TestStepInfoImpl {
+      annotations: [],
+      _testInfo: [TestInfoImpl],
+      _stepId: 'pw:api@43',
+      _title: 'Navigate to "/admin/events"',
+      _parentStep: undefined,
+      skip: [Function (anonymous)]
+    },
+    complete: [Function: complete],
+    endWallTime: 1779954972208,
+    error: {
+      message: 'Error: page.goto: net::ERR_ABORTED at https://eventhub.rahulshettyacademy.com/admin/events\n' +
+        'Call log:\n' +
+        '\x1B[2m  - navigating to "https://eventhub.rahulshettyacademy.com/admin/events", waiting until "networkidle"\x1B[22m\n',
+      stack: 'Error: page.goto: net::ERR_ABORTED at https://eventhub.rahulshettyacademy.com/admin/events\n' +
+        'Call log:\n' +
+        '\x1B[2m  - navigating to "https://eventhub.rahulshettyacademy.com/admin/events", waiting until "networkidle"\x1B[22m\n' +
+        '\n' +
+        '    at Createneweventpage.navigateaddnewevent (C:\\Users\\bhavnesh.kumar\\OneDrive - GSPANN Technologies\\Documents\\trynewautomation\\pages\\Createneweventpage.ts:24:25)\n' +
+        '    at C:\\Users\\bhavnesh.kumar\\OneDrive - GSPANN Technologies\\Documents\\trynewautomation\\tests\\e2e.spec.ts:103:34',
+      cause: undefined
+    }
+  }
+}

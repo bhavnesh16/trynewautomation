@@ -1,0 +1,4 @@
+Test Data: https://eventhub.rahulshettyacademy.com/login
+Initial navigation...https://eventhub.rahulshettyacademy.com/login
+Initial navigation failed, retrying with networkidle...
+Selector not found: button:has-text("Logout")

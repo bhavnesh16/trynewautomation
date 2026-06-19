@@ -1,0 +1,5 @@
+{
+  success: true,
+  token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjQsImVtYWlsIjoic3R1ZGVudEBleGFtcGxlLmNvbSIsImlhdCI6MTc4MDY0MTYxMCwiZXhwIjoxNzgxMjQ2NDEwfQ._CZdMLkLtIySHdtG6fxHlW1wDXNFRlB-nKZFBiOuOI4',
+  user: { id: 4, email: 'student@example.com' }
+}

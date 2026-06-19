@@ -1,0 +1,1 @@
+Error during cancelallbookings: Could not find "Clear all bookings" button

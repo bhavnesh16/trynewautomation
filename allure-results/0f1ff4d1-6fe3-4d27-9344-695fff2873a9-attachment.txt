@@ -1,0 +1,35 @@
+Error in checking the search flow: page.waitForTimeout: Target page, context or browser has been closed
+    at C:\Users\bhavnesh.kumar\OneDrive - GSPANN Technologies\Documents\trynewautomation\tests\normaltesting.spec.ts:12:19 {
+  [Symbol(step)]: {
+    location: {
+      file: 'C:\\Users\\bhavnesh.kumar\\OneDrive - GSPANN Technologies\\Documents\\trynewautomation\\tests\\normaltesting.spec.ts',
+      line: 12,
+      column: 19
+    },
+    category: 'pw:api',
+    title: 'Wait for timeout',
+    apiName: 'page.waitForTimeout',
+    params: { waitTimeout: 100000 },
+    group: undefined,
+    stepId: 'pw:api@40',
+    boxedStack: undefined,
+    steps: [],
+    attachmentIndices: [],
+    info: TestStepInfoImpl {
+      annotations: [],
+      _testInfo: [TestInfoImpl],
+      _stepId: 'pw:api@40',
+      _title: 'Wait for timeout',
+      _parentStep: undefined,
+      skip: [Function (anonymous)]
+    },
+    complete: [Function: complete],
+    endWallTime: 1781080678376,
+    error: {
+      message: 'Error: page.waitForTimeout: Target page, context or browser has been closed',
+      stack: 'Error: page.waitForTimeout: Target page, context or browser has been closed\n' +
+        '    at C:\\Users\\bhavnesh.kumar\\OneDrive - GSPANN Technologies\\Documents\\trynewautomation\\tests\\normaltesting.spec.ts:12:19',
+      cause: undefined
+    }
+  }
+}

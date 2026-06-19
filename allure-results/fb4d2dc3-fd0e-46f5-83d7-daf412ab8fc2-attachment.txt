@@ -1,0 +1,7 @@
+Test Data: https://eventhub.rahulshettyacademy.com/login
+Initial navigation...https://eventhub.rahulshettyacademy.com/login
+Found 29 links on the page
+Found 3 nav elements
+Nav 0: id="nav-home", text="Home"
+Nav 1: id="nav-events", text="Events"
+Nav 2: id="nav-bookings", text="My Bookings"

@@ -1,0 +1,11 @@
+Test Data: https://eventhub.rahulshettyacademy.com/login
+Initial navigation...https://eventhub.rahulshettyacademy.com/login
+Found 0 links on the page
+Found 0 nav elements
+Page title: EventHub — Discover & Book Events
+Page URL: https://eventhub.rahulshettyacademy.com/login
+Selector not found: a:has-text("Dilli Diwali Mela")
+Selector not found: #customerName
+Selector not found: #customer-email
+Selector not found: #phone
+Selector not found: button:has-text("Confirm Booking")

@@ -1,0 +1,55 @@
+Navigation failed: page.goto: net::ERR_ABORTED at https://eventhub.rahulshettyacademy.com/admin/bookings
+Call log:
+  - navigating to "https://eventhub.rahulshettyacademy.com/admin/bookings", waiting until "domcontentloaded"
+
+Error in Admin manage booking End to End Test: page.goto: net::ERR_ABORTED at https://eventhub.rahulshettyacademy.com/admin/bookings
+Call log:
+  - navigating to "https://eventhub.rahulshettyacademy.com/admin/bookings", waiting until "domcontentloaded"
+
+    at managebookingpage.navigatemanagerbooking (C:\Users\bhavnesh.kumar\OneDrive - GSPANN Technologies\Documents\trynewautomation\pages\managebooking.ts:19:25)
+    at C:\Users\bhavnesh.kumar\OneDrive - GSPANN Technologies\Documents\trynewautomation\tests\e2e.spec.ts:129:33 {
+  name: 'Error',
+  [Symbol(step)]: {
+    location: {
+      file: 'C:\\Users\\bhavnesh.kumar\\OneDrive - GSPANN Technologies\\Documents\\trynewautomation\\pages\\managebooking.ts',
+      line: 19,
+      column: 25,
+      function: 'managebookingpage.navigatemanagerbooking'
+    },
+    category: 'pw:api',
+    title: 'Navigate to "/admin/bookings"',
+    apiName: 'page.goto',
+    params: {
+      url: 'https://eventhub.rahulshettyacademy.com/admin/bookings',
+      waitUntil: 'domcontentloaded',
+      timeout: 60000
+    },
+    group: undefined,
+    stepId: 'pw:api@43',
+    boxedStack: undefined,
+    steps: [],
+    attachmentIndices: [],
+    info: TestStepInfoImpl {
+      annotations: [],
+      _testInfo: [TestInfoImpl],
+      _stepId: 'pw:api@43',
+      _title: 'Navigate to "/admin/bookings"',
+      _parentStep: undefined,
+      skip: [Function (anonymous)]
+    },
+    complete: [Function: complete],
+    endWallTime: 1779955018733,
+    error: {
+      message: 'Error: page.goto: net::ERR_ABORTED at https://eventhub.rahulshettyacademy.com/admin/bookings\n' +
+        'Call log:\n' +
+        '\x1B[2m  - navigating to "https://eventhub.rahulshettyacademy.com/admin/bookings", waiting until "domcontentloaded"\x1B[22m\n',
+      stack: 'Error: page.goto: net::ERR_ABORTED at https://eventhub.rahulshettyacademy.com/admin/bookings\n' +
+        'Call log:\n' +
+        '\x1B[2m  - navigating to "https://eventhub.rahulshettyacademy.com/admin/bookings", waiting until "domcontentloaded"\x1B[22m\n' +
+        '\n' +
+        '    at managebookingpage.navigatemanagerbooking (C:\\Users\\bhavnesh.kumar\\OneDrive - GSPANN Technologies\\Documents\\trynewautomation\\pages\\managebooking.ts:19:25)\n' +
+        '    at C:\\Users\\bhavnesh.kumar\\OneDrive - GSPANN Technologies\\Documents\\trynewautomation\\tests\\e2e.spec.ts:129:33',
+      cause: undefined
+    }
+  }
+}

@@ -1,0 +1,36 @@
+Error in checking the search flow: page.waitForLoadState: Timeout 120000ms exceeded.
+    at C:\Users\bhavnesh.kumar\OneDrive - GSPANN Technologies\Documents\trynewautomation\tests\normaltesting.spec.ts:11:19 {
+  name: 'TimeoutError',
+  [Symbol(step)]: {
+    location: {
+      file: 'C:\\Users\\bhavnesh.kumar\\OneDrive - GSPANN Technologies\\Documents\\trynewautomation\\tests\\normaltesting.spec.ts',
+      line: 11,
+      column: 19
+    },
+    category: 'pw:api',
+    title: 'Wait for load state "networkidle"',
+    apiName: 'page.waitForLoadState',
+    params: { info: [Object] },
+    group: undefined,
+    stepId: 'pw:api@40',
+    boxedStack: undefined,
+    steps: [],
+    attachmentIndices: [],
+    info: TestStepInfoImpl {
+      annotations: [],
+      _testInfo: [TestInfoImpl],
+      _stepId: 'pw:api@40',
+      _title: 'Wait for load state "networkidle"',
+      _parentStep: undefined,
+      skip: [Function (anonymous)]
+    },
+    complete: [Function: complete],
+    endWallTime: 1781080237093,
+    error: {
+      message: 'TimeoutError: page.waitForLoadState: Timeout 120000ms exceeded.',
+      stack: 'TimeoutError: page.waitForLoadState: Timeout 120000ms exceeded.\n' +
+        '    at C:\\Users\\bhavnesh.kumar\\OneDrive - GSPANN Technologies\\Documents\\trynewautomation\\tests\\normaltesting.spec.ts:11:19',
+      cause: undefined
+    }
+  }
+}

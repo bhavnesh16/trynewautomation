@@ -1,0 +1,4 @@
+Current URL after login: https://eventhub.rahulshettyacademy.com/login
+Found 3 links on the page
+Found 0 nav elements
+Selector not found: a button :has-text("Manage Bookings")

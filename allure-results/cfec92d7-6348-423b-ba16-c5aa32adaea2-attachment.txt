@@ -1,0 +1,40 @@
+Error in Admin manage booking End to End Test: page.screenshot: Target page, context or browser has been closed
+    at C:\Users\bhavnesh.kumar\OneDrive - GSPANN Technologies\Documents\trynewautomation\tests\e2e.spec.ts:146:20 {
+  [Symbol(step)]: {
+    location: {
+      file: 'C:\\Users\\bhavnesh.kumar\\OneDrive - GSPANN Technologies\\Documents\\trynewautomation\\tests\\e2e.spec.ts',
+      line: 146,
+      column: 20
+    },
+    category: 'pw:api',
+    title: 'Screenshot',
+    apiName: 'page.screenshot',
+    params: {
+      path: 'test-results/step3-manage-bookings.png',
+      mask: undefined,
+      timeout: 0,
+      type: 'png'
+    },
+    group: undefined,
+    stepId: 'pw:api@64',
+    boxedStack: undefined,
+    steps: [],
+    attachmentIndices: [],
+    info: TestStepInfoImpl {
+      annotations: [],
+      _testInfo: [TestInfoImpl],
+      _stepId: 'pw:api@64',
+      _title: 'Screenshot',
+      _parentStep: undefined,
+      skip: [Function (anonymous)]
+    },
+    complete: [Function: complete],
+    endWallTime: 1780546009528,
+    error: {
+      message: 'Error: page.screenshot: Target page, context or browser has been closed',
+      stack: 'Error: page.screenshot: Target page, context or browser has been closed\n' +
+        '    at C:\\Users\\bhavnesh.kumar\\OneDrive - GSPANN Technologies\\Documents\\trynewautomation\\tests\\e2e.spec.ts:146:20',
+      cause: undefined
+    }
+  }
+}

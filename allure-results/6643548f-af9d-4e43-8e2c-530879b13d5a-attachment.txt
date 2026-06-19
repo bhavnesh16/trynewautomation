@@ -1,0 +1,4 @@
+Navigation failed: page.goto: net::ERR_ABORTED; maybe frame was detached?
+Call log:
+  - navigating to "https://eventhub.rahulshettyacademy.com/admin/bookings", waiting until "networkidle"
+

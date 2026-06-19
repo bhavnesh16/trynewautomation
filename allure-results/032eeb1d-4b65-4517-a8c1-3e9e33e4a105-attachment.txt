@@ -1,0 +1,4 @@
+Navigation to My Bookings failed: page.goto: net::ERR_ABORTED at https://eventhub.rahulshettyacademy.com/bookings
+Call log:
+  - navigating to "https://eventhub.rahulshettyacademy.com/bookings", waiting until "domcontentloaded"
+

@@ -1,0 +1,6 @@
+Current URL after login: https://eventhub.rahulshettyacademy.com/login
+Found 3 links on the page
+Found 0 nav elements
+Starting navigation to admin events...
+Current URL before navigation: https://eventhub.rahulshettyacademy.com/events/3
+Current URL on error: https://eventhub.rahulshettyacademy.com/events/3

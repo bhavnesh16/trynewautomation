@@ -1,0 +1,48 @@
+Error in checking the search flow: page.goto: net::ERR_ABORTED at https://www.amazon.in/ref=nav_logo
+Call log:
+  - navigating to "https://www.amazon.in/ref=nav_logo", waiting until "load"
+
+    at C:\Users\bhavnesh.kumar\OneDrive - GSPANN Technologies\Documents\trynewautomation\tests\normaltesting.spec.ts:10:19 {
+  name: 'Error',
+  [Symbol(step)]: {
+    location: {
+      file: 'C:\\Users\\bhavnesh.kumar\\OneDrive - GSPANN Technologies\\Documents\\trynewautomation\\tests\\normaltesting.spec.ts',
+      line: 10,
+      column: 19
+    },
+    category: 'pw:api',
+    title: 'Navigate to "/ref=nav_logo"',
+    apiName: 'page.goto',
+    params: {
+      url: 'https://www.amazon.in/ref=nav_logo',
+      waitUntil: 'load',
+      timeout: 0
+    },
+    group: undefined,
+    stepId: 'pw:api@39',
+    boxedStack: undefined,
+    steps: [],
+    attachmentIndices: [],
+    info: TestStepInfoImpl {
+      annotations: [],
+      _testInfo: [TestInfoImpl],
+      _stepId: 'pw:api@39',
+      _title: 'Navigate to "/ref=nav_logo"',
+      _parentStep: undefined,
+      skip: [Function (anonymous)]
+    },
+    complete: [Function: complete],
+    endWallTime: 1781082196899,
+    error: {
+      message: 'Error: page.goto: net::ERR_ABORTED at https://www.amazon.in/ref=nav_logo\n' +
+        'Call log:\n' +
+        '\x1B[2m  - navigating to "https://www.amazon.in/ref=nav_logo", waiting until "load"\x1B[22m\n',
+      stack: 'Error: page.goto: net::ERR_ABORTED at https://www.amazon.in/ref=nav_logo\n' +
+        'Call log:\n' +
+        '\x1B[2m  - navigating to "https://www.amazon.in/ref=nav_logo", waiting until "load"\x1B[22m\n' +
+        '\n' +
+        '    at C:\\Users\\bhavnesh.kumar\\OneDrive - GSPANN Technologies\\Documents\\trynewautomation\\tests\\normaltesting.spec.ts:10:19',
+      cause: undefined
+    }
+  }
+}

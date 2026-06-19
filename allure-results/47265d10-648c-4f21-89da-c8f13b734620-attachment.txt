@@ -1,0 +1,91 @@
+Error in Admin manage booking End to End Test: ExpectError: expect(received).toEqual(expected) // deep equality
+
+- Expected  - 2
++ Received  + 2
+
+  Array [
+    "All Statuses",
+-   "confirmed",
+-   "cancelled",
++   "Confirmed",
++   "Cancelled",
+  ]
+    at managebookingpage.navigatemanagerbooking (C:\Users\bhavnesh.kumar\OneDrive - GSPANN Technologies\Documents\trynewautomation\pages\managebooking.ts:42:27)
+    at C:\Users\bhavnesh.kumar\OneDrive - GSPANN Technologies\Documents\trynewautomation\tests\e2e.spec.ts:231:9 {
+  matcherResult: {
+    actual: [ 'All Statuses', 'Confirmed', 'Cancelled' ],
+    expected: [ 'All Statuses', 'confirmed', 'cancelled' ],
+    message: '\x1B[2mexpect(\x1B[22m\x1B[31mreceived\x1B[39m\x1B[2m).\x1B[22mtoEqual\x1B[2m(\x1B[22m\x1B[32mexpected\x1B[39m\x1B[2m) // deep equality\x1B[22m\n' +
+      '\n' +
+      '\x1B[32m- Expected  - 2\x1B[39m\n' +
+      '\x1B[31m+ Received  + 2\x1B[39m\n' +
+      '\n' +
+      '\x1B[2m  Array [\x1B[22m\n' +
+      '\x1B[2m    "All Statuses",\x1B[22m\n' +
+      '\x1B[32m-   "confirmed",\x1B[39m\n' +
+      '\x1B[32m-   "cancelled",\x1B[39m\n' +
+      '\x1B[31m+   "Confirmed",\x1B[39m\n' +
+      '\x1B[31m+   "Cancelled",\x1B[39m\n' +
+      '\x1B[2m  ]\x1B[22m',
+    name: 'toEqual',
+    pass: false
+  },
+  [Symbol(step)]: {
+    category: 'expect',
+    apiName: 'expect.toEqual',
+    title: 'Expect "toEqual"',
+    shortTitle: 'Expect "toEqual"',
+    params: { expected: [Array] },
+    infectParentStepsWithError: undefined,
+    stepId: 'expect@57',
+    group: undefined,
+    boxedStack: undefined,
+    location: {
+      file: 'C:\\Users\\bhavnesh.kumar\\OneDrive - GSPANN Technologies\\Documents\\trynewautomation\\pages\\managebooking.ts',
+      line: 42,
+      column: 27,
+      function: 'managebookingpage.navigatemanagerbooking'
+    },
+    steps: [],
+    attachmentIndices: [],
+    info: TestStepInfoImpl {
+      annotations: [],
+      _testInfo: [TestInfoImpl],
+      _stepId: 'expect@57',
+      _title: 'Expect "toEqual"',
+      _parentStep: undefined,
+      skip: [Function (anonymous)]
+    },
+    complete: [Function: complete],
+    endWallTime: 1779431960449,
+    error: {
+      message: 'Error: \x1B[2mexpect(\x1B[22m\x1B[31mreceived\x1B[39m\x1B[2m).\x1B[22mtoEqual\x1B[2m(\x1B[22m\x1B[32mexpected\x1B[39m\x1B[2m) // deep equality\x1B[22m\n' +
+        '\n' +
+        '\x1B[32m- Expected  - 2\x1B[39m\n' +
+        '\x1B[31m+ Received  + 2\x1B[39m\n' +
+        '\n' +
+        '\x1B[2m  Array [\x1B[22m\n' +
+        '\x1B[2m    "All Statuses",\x1B[22m\n' +
+        '\x1B[32m-   "confirmed",\x1B[39m\n' +
+        '\x1B[32m-   "cancelled",\x1B[39m\n' +
+        '\x1B[31m+   "Confirmed",\x1B[39m\n' +
+        '\x1B[31m+   "Cancelled",\x1B[39m\n' +
+        '\x1B[2m  ]\x1B[22m',
+      stack: 'Error: \x1B[2mexpect(\x1B[22m\x1B[31mreceived\x1B[39m\x1B[2m).\x1B[22mtoEqual\x1B[2m(\x1B[22m\x1B[32mexpected\x1B[39m\x1B[2m) // deep equality\x1B[22m\n' +
+        '\n' +
+        '\x1B[32m- Expected  - 2\x1B[39m\n' +
+        '\x1B[31m+ Received  + 2\x1B[39m\n' +
+        '\n' +
+        '\x1B[2m  Array [\x1B[22m\n' +
+        '\x1B[2m    "All Statuses",\x1B[22m\n' +
+        '\x1B[32m-   "confirmed",\x1B[39m\n' +
+        '\x1B[32m-   "cancelled",\x1B[39m\n' +
+        '\x1B[31m+   "Confirmed",\x1B[39m\n' +
+        '\x1B[31m+   "Cancelled",\x1B[39m\n' +
+        '\x1B[2m  ]\x1B[22m\n' +
+        '    at managebookingpage.navigatemanagerbooking (C:\\Users\\bhavnesh.kumar\\OneDrive - GSPANN Technologies\\Documents\\trynewautomation\\pages\\managebooking.ts:42:27)\n' +
+        '    at C:\\Users\\bhavnesh.kumar\\OneDrive - GSPANN Technologies\\Documents\\trynewautomation\\tests\\e2e.spec.ts:231:9',
+      cause: undefined
+    }
+  }
+}

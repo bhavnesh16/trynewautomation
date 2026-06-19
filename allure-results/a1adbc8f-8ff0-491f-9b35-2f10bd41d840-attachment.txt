@@ -1,0 +1,6 @@
+Test Data: https://eventhub.rahulshettyacademy.com/login
+Found 3 links on the page
+Found 0 nav elements
+Fill error for selector "#phone": locator.fill: value: expected string, got undefined
+Available input elements: 3
+Retry fill failed for: #phone

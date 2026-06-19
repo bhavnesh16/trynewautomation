@@ -1,0 +1,6 @@
+Looking for "Clear all bookings" button...
+✓ Found "Clear all bookings" button
+Dialog appeared: Clear all your bookings? This cannot be undone.
+✓ Button clicked
+✓ Dialog accepted
+✓ Success! All bookings cleared. "No bookings yet" message confirmed.

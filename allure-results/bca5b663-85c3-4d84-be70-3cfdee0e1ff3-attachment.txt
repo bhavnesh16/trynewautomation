@@ -1,0 +1,9 @@
+Current URL after login: https://eventhub.rahulshettyacademy.com/
+Starting navigation to admin events...
+Current URL before navigation: https://eventhub.rahulshettyacademy.com/
+Navigation successful, URL: https://eventhub.rahulshettyacademy.com/admin/bookings
+[ 'All Statuses', 'Confirmed', 'Cancelled' ]
+Selector not found: div button>:nth-child(4)
+Selector not found: div button>:nth-child(6)
+Selector not found: div button>:nth-child(5)
+Selector not found: div button>:nth-child(8)

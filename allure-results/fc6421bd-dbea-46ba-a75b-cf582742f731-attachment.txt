@@ -1,0 +1,10 @@
+Test Data URL: https://eventhub.rahulshettyacademy.com/login
+Initial navigation...https://eventhub.rahulshettyacademy.com/login
+Page title: EventHub — Discover & Book Events
+Page URL: https://eventhub.rahulshettyacademy.com/login
+✓ Login completed successfully
+Starting navigation to admin events...
+Current URL before navigation: https://eventhub.rahulshettyacademy.com/
+Navigation successful, URL: https://eventhub.rahulshettyacademy.com/admin/bookings
+[ 'All Statuses', 'Confirmed', 'Cancelled' ]
+✓ Admin manage booking test completed successfully

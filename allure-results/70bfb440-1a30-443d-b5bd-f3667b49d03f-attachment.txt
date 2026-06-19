@@ -1,0 +1,6 @@
+Test Data: https://eventhub.rahulshettyacademy.com/login
+Initial navigation...https://eventhub.rahulshettyacademy.com/login
+Found 0 links on the page
+Found 0 nav elements
+Page title: EventHub — Discover & Book Events
+Page URL: https://eventhub.rahulshettyacademy.com/login

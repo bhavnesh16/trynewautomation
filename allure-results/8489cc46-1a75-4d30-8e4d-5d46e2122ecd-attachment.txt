@@ -1,0 +1,11 @@
+Error in Admin manage booking End to End Test: TypeError: Cannot read properties of undefined (reading 'close')
+    at managebookingpage.navigatemanagerbooking (C:\Users\bhavnesh.kumar\OneDrive - GSPANN Technologies\Documents\trynewautomation\pages\managebooking.ts:53:19)
+    at C:\Users\bhavnesh.kumar\OneDrive - GSPANN Technologies\Documents\trynewautomation\tests\e2e.spec.ts:142:9
+    at C:\Users\bhavnesh.kumar\OneDrive - GSPANN Technologies\Documents\trynewautomation\node_modules\playwright\lib\worker\workerMain.js:326:9
+    at C:\Users\bhavnesh.kumar\OneDrive - GSPANN Technologies\Documents\trynewautomation\node_modules\playwright\lib\worker\testInfo.js:320:11
+    at TimeoutManager.withRunnable (C:\Users\bhavnesh.kumar\OneDrive - GSPANN Technologies\Documents\trynewautomation\node_modules\playwright\lib\worker\timeoutManager.js:75:14)
+    at TestInfoImpl._runWithTimeout (C:\Users\bhavnesh.kumar\OneDrive - GSPANN Technologies\Documents\trynewautomation\node_modules\playwright\lib\worker\testInfo.js:318:7)
+    at C:\Users\bhavnesh.kumar\OneDrive - GSPANN Technologies\Documents\trynewautomation\node_modules\playwright\lib\worker\workerMain.js:324:7
+    at WorkerMain._runTest (C:\Users\bhavnesh.kumar\OneDrive - GSPANN Technologies\Documents\trynewautomation\node_modules\playwright\lib\worker\workerMain.js:297:5)
+    at WorkerMain.runTestGroup (C:\Users\bhavnesh.kumar\OneDrive - GSPANN Technologies\Documents\trynewautomation\node_modules\playwright\lib\worker\workerMain.js:203:9)
+    at process.<anonymous> (C:\Users\bhavnesh.kumar\OneDrive - GSPANN Technologies\Documents\trynewautomation\node_modules\playwright\lib\common\process.js:73:22)

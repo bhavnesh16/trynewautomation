@@ -1,0 +1,7 @@
+Test Data: https://eventhub.rahulshettyacademy.com/login
+Initial navigation...https://eventhub.rahulshettyacademy.com/login
+Selector not found: div #nav-bookings
+url2:about:blank
+Selector not found: button:has-text("Cancel Booking")
+Selector not found: button:has-text("Yes, cancel it")
+Initial navigation failed, retrying with networkidle...

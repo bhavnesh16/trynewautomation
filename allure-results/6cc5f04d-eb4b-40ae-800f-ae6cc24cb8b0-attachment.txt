@@ -1,0 +1,13 @@
+Test Data URL: https://eventhub.rahulshettyacademy.com/login
+Initial navigation...https://eventhub.rahulshettyacademy.com/login
+Page title: EventHub — Discover & Book Events
+Page URL: https://eventhub.rahulshettyacademy.com/login
+✓ Login completed successfully
+Navigating to My Bookings page...
+Successfully navigated to: https://eventhub.rahulshettyacademy.com/bookings
+Looking for "Clear all bookings" button...
+✓ Found "Clear all bookings" button
+Dialog appeared: Clear all your bookings? This cannot be undone.
+✓ Button clicked
+✓ Dialog accepted
+✓ Success! All bookings cleared. "No bookings yet" message confirmed.

@@ -1,0 +1,51 @@
+Error in Admin manage booking End to End Test: page.goto: net::ERR_ABORTED at https://eventhub.rahulshettyacademy.com/login
+Call log:
+  - navigating to "https://eventhub.rahulshettyacademy.com/login", waiting until "load"
+
+    at loginpage.goto (C:\Users\bhavnesh.kumar\OneDrive - GSPANN Technologies\Documents\trynewautomation\pages\loginpage.ts:10:21)
+    at C:\Users\bhavnesh.kumar\OneDrive - GSPANN Technologies\Documents\trynewautomation\tests\e2e.spec.ts:199:21 {
+  name: 'Error',
+  [Symbol(step)]: {
+    location: {
+      file: 'C:\\Users\\bhavnesh.kumar\\OneDrive - GSPANN Technologies\\Documents\\trynewautomation\\pages\\loginpage.ts',
+      line: 10,
+      column: 21,
+      function: 'loginpage.goto'
+    },
+    category: 'pw:api',
+    title: 'Navigate to "/login"',
+    apiName: 'page.goto',
+    params: {
+      url: 'https://eventhub.rahulshettyacademy.com/login',
+      timeout: 100000,
+      waitUntil: 'load'
+    },
+    group: undefined,
+    stepId: 'pw:api@39',
+    boxedStack: undefined,
+    steps: [],
+    attachmentIndices: [],
+    info: TestStepInfoImpl {
+      annotations: [],
+      _testInfo: [TestInfoImpl],
+      _stepId: 'pw:api@39',
+      _title: 'Navigate to "/login"',
+      _parentStep: undefined,
+      skip: [Function (anonymous)]
+    },
+    complete: [Function: complete],
+    endWallTime: 1779431770263,
+    error: {
+      message: 'Error: page.goto: net::ERR_ABORTED at https://eventhub.rahulshettyacademy.com/login\n' +
+        'Call log:\n' +
+        '\x1B[2m  - navigating to "https://eventhub.rahulshettyacademy.com/login", waiting until "load"\x1B[22m\n',
+      stack: 'Error: page.goto: net::ERR_ABORTED at https://eventhub.rahulshettyacademy.com/login\n' +
+        'Call log:\n' +
+        '\x1B[2m  - navigating to "https://eventhub.rahulshettyacademy.com/login", waiting until "load"\x1B[22m\n' +
+        '\n' +
+        '    at loginpage.goto (C:\\Users\\bhavnesh.kumar\\OneDrive - GSPANN Technologies\\Documents\\trynewautomation\\pages\\loginpage.ts:10:21)\n' +
+        '    at C:\\Users\\bhavnesh.kumar\\OneDrive - GSPANN Technologies\\Documents\\trynewautomation\\tests\\e2e.spec.ts:199:21',
+      cause: undefined
+    }
+  }
+}

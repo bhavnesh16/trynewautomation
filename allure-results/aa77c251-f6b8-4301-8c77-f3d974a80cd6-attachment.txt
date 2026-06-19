@@ -1,0 +1,5 @@
+Page title: EventHub — Discover & Book Events
+Page URL: https://eventhub.rahulshettyacademy.com/login
+Fill error for selector "#email": locator.fill: value: expected string, got undefined
+Available input elements: 2
+Retry fill failed for: #email

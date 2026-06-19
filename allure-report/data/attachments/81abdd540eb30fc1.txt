@@ -1,0 +1,5 @@
+Current URL after login: https://eventhub.rahulshettyacademy.com/login
+Starting navigation to admin events...
+Current URL before navigation: https://eventhub.rahulshettyacademy.com/login
+Navigation successful, URL: https://eventhub.rahulshettyacademy.com/admin/events
+Selector not found: .text-sm rounded-lg gap-2

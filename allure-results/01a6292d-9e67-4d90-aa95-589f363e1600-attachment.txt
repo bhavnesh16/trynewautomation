@@ -1,0 +1,47 @@
+Error in checking the search flow: locator.click: Test timeout of 200000ms exceeded.
+Call log:
+  - waiting for locator('nav-flyout-button nav-icon nav-arrow').nth(2)
+
+    at C:\Users\bhavnesh.kumar\OneDrive - GSPANN Technologies\Documents\trynewautomation\tests\normaltesting.spec.ts:14:74 {
+  [Symbol(step)]: {
+    location: {
+      file: 'C:\\Users\\bhavnesh.kumar\\OneDrive - GSPANN Technologies\\Documents\\trynewautomation\\tests\\normaltesting.spec.ts',
+      line: 14,
+      column: 74
+    },
+    category: 'pw:api',
+    title: "Click locator('nav-flyout-button nav-icon nav-arrow').nth(2)",
+    apiName: 'locator.click',
+    params: {
+      selector: 'nav-flyout-button nav-icon nav-arrow >> nth=2',
+      strict: true,
+      timeout: 0
+    },
+    group: undefined,
+    stepId: 'pw:api@42',
+    boxedStack: undefined,
+    steps: [],
+    attachmentIndices: [],
+    info: TestStepInfoImpl {
+      annotations: [],
+      _testInfo: [TestInfoImpl],
+      _stepId: 'pw:api@42',
+      _title: "Click locator('nav-flyout-button nav-icon nav-arrow').nth(2)",
+      _parentStep: undefined,
+      skip: [Function (anonymous)]
+    },
+    complete: [Function: complete],
+    endWallTime: 1781082000475,
+    error: {
+      message: 'Error: locator.click: Test timeout of 200000ms exceeded.\n' +
+        'Call log:\n' +
+        "\x1B[2m  - waiting for locator('nav-flyout-button nav-icon nav-arrow').nth(2)\x1B[22m\n",
+      stack: 'Error: locator.click: Test timeout of 200000ms exceeded.\n' +
+        'Call log:\n' +
+        "\x1B[2m  - waiting for locator('nav-flyout-button nav-icon nav-arrow').nth(2)\x1B[22m\n" +
+        '\n' +
+        '    at C:\\Users\\bhavnesh.kumar\\OneDrive - GSPANN Technologies\\Documents\\trynewautomation\\tests\\normaltesting.spec.ts:14:74',
+      cause: undefined
+    }
+  }
+}

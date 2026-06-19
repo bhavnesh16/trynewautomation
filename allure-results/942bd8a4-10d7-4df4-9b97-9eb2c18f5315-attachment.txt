@@ -1,0 +1,11 @@
+Initial navigation...https://eventhub.rahulshettyacademy.com/login
+Current URL after login: https://eventhub.rahulshettyacademy.com/
+Starting navigation to admin events...
+Current URL before navigation: https://eventhub.rahulshettyacademy.com/
+Navigation successful, URL: https://eventhub.rahulshettyacademy.com/admin/bookings
+[ 'All Statuses', 'Confirmed', 'Cancelled' ]
+Selector not found: td div button>:nth-child(1)
+Selector not found: div button svg>:nth-child(3)
+Selector not found: div button>:nth-child(4)
+Selector not found: #confirm-dialog-yes
+✓ Admin manage booking test completed successfully

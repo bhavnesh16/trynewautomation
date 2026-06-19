@@ -1,0 +1,4 @@
+beforeEach setup failed: page.goto: net::ERR_ABORTED at https://eventhub.rahulshettyacademy.com/login
+Call log:
+  - navigating to "https://eventhub.rahulshettyacademy.com/login", waiting until "domcontentloaded"
+

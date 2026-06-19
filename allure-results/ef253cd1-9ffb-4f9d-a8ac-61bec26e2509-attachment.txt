@@ -1,0 +1,38 @@
+Error in Admin manage booking End to End Test: page.waitForTimeout: Test timeout of 100000ms exceeded.
+    at managebookingpage.navigatemanagerbooking (C:\Users\bhavnesh.kumar\OneDrive - GSPANN Technologies\Documents\trynewautomation\pages\managebooking.ts:52:17)
+    at C:\Users\bhavnesh.kumar\OneDrive - GSPANN Technologies\Documents\trynewautomation\tests\e2e.spec.ts:231:9 {
+  [Symbol(step)]: {
+    location: {
+      file: 'C:\\Users\\bhavnesh.kumar\\OneDrive - GSPANN Technologies\\Documents\\trynewautomation\\pages\\managebooking.ts',
+      line: 52,
+      column: 17,
+      function: 'managebookingpage.navigatemanagerbooking'
+    },
+    category: 'pw:api',
+    title: 'Wait for timeout',
+    apiName: 'page.waitForTimeout',
+    params: { waitTimeout: 10000 },
+    group: undefined,
+    stepId: 'pw:api@63',
+    boxedStack: undefined,
+    steps: [],
+    attachmentIndices: [],
+    info: TestStepInfoImpl {
+      annotations: [],
+      _testInfo: [TestInfoImpl],
+      _stepId: 'pw:api@63',
+      _title: 'Wait for timeout',
+      _parentStep: undefined,
+      skip: [Function (anonymous)]
+    },
+    complete: [Function: complete],
+    endWallTime: 1779432760549,
+    error: {
+      message: 'Error: page.waitForTimeout: Test timeout of 100000ms exceeded.',
+      stack: 'Error: page.waitForTimeout: Test timeout of 100000ms exceeded.\n' +
+        '    at managebookingpage.navigatemanagerbooking (C:\\Users\\bhavnesh.kumar\\OneDrive - GSPANN Technologies\\Documents\\trynewautomation\\pages\\managebooking.ts:52:17)\n' +
+        '    at C:\\Users\\bhavnesh.kumar\\OneDrive - GSPANN Technologies\\Documents\\trynewautomation\\tests\\e2e.spec.ts:231:9',
+      cause: undefined
+    }
+  }
+}

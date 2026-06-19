@@ -1,0 +1,8 @@
+Test Data: https://eventhub.rahulshettyacademy.com/login
+Found 3 links on the page
+Found 0 nav elements
+Selector not found: a:has-text("Dilli Diwali Mela")
+Selector not found: #customerName
+Selector not found: #customer-email
+Selector not found: #phone
+Selector not found: button:has-text("Confirm Booking")
