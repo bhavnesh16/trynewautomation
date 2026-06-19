@@ -19,8 +19,8 @@ test.beforeEach(async ({ page ,loginpage}) => {
     await page.screenshot({ path: 'test-results/page-debug.png' });
     
     const title = await page.title();
-    console.log('Page title:', title);
-    console.log('Page URL:', page.url());
+    console.log('Page title1:', title);
+    console.log('Page URL1:', page.url());
     
     // Perform login
     await loginpage.fillCredentials(data.email, data.password);
